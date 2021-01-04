@@ -7,6 +7,8 @@ _ /_/  /_/      /_/      /_/ |_|      /_/  |_|      \____/      \____/      /___
 Made By M1raculous
 Steam: https://steamcommunity.com/id/M1raculous/
 Discord: M1raculous#1337
+Credit to:
+"Magnus", for making anti-say, i just did some modifications.
 --]]
 
 Citizen.CreateThread(function() TriggerEvent('chat:addSuggestion', '/_Crash') end)
