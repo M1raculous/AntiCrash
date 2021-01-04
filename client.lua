@@ -1,0 +1,7 @@
+Citizen.CreateThread(function() TriggerEvent('chat:addSuggestion', '/_Crash') end)
+RegisterCommand("say", function(source, args, rawCommandString)
+  local player = GetPlayerPed(-1)
+  local coord = GetEntityCoords(player)
+    TriggerEvent('chatMessage', "Denne kommand er deaktiveret.")
+    print("AntiCrash Kommand aktiveret, dette var et godt forsøg, men det blev blokeret.")
+end, false)
